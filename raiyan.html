@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Light Control</h1>
+<p>javascript learning</p>
+<div id="bulb"></div>
+
+<button onclick="turnOn()">Light ON</button>
+
+<button onclick="turnOff()">Light off</button>
+
+<style>
+#bulb {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+ h1 {
+  color:red;
+  font-size:30px;
+  background-color:black;
+}
+p{
+  color:yellow;
+  font-size:20px;
+  padding:0;
+  background-color:green;
+  
+}
+</style>
+
+<script>
+
+function turnOn() {
+    document.getElementById("bulb").style.backgroundColor = "yellow";
+}
+
+function turnOff() {
+  document.getElementById("bulb")
+ .style.backgroundColor = "black";
+}
+
+</script>
+
+</body>
+</html>
